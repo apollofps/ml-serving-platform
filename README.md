@@ -131,7 +131,7 @@ Create dashboards using these PromQL queries:
 - **Status Breakdown**: `rate(inference_requests_total[5m]) by (status)`
 
 #### Example Dashboard
-![Grafana Dashboard for ML Gateway Metrics](docs/images/grafana-dashboard.png)
+![Grafana Dashboard for ML Gateway Metrics](docs/images/grafana_dashboard.png)
 
 *Grafana dashboard showing real-time metrics: requests per second, latency percentiles (P50, P95, P99), and average latency for the ML Gateway.*
 
